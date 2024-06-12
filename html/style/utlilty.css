@@ -1,0 +1,42 @@
+/* utility classes  */
+
+/* flex class started */
+.flex{
+    display: flex;
+}
+.flex_wrap{
+    flex-wrap: wrap;
+}
+.flex_column{
+    flex-direction: column;
+}
+.flex_row{
+    flex-direction: row;
+}
+.flex_basis{
+    flex-basis: auto;
+}
+.justify_center{
+    justify-content: center;
+}
+.justify_around{
+    justify-content: space-around;
+}
+.justify_between{
+    justify-content: space-evenly;
+}
+.justify_eveenly{
+    justify-content: space-evenly;
+}
+.align_center{
+    align-items: center;
+}
+.gap{
+    gap: 20px;
+}
+/* flex class started */
+/* margin class started */
+.mt0{
+    margin: 20px;
+}
+/* margin class started */
