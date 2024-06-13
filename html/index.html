@@ -6,29 +6,45 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/styles.css">
     <link rel="stylesheet" href="./style/utlilty.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="flex flex_wrap justify_around flex_basis">
-        <div>
+        <div class="flex flex_wrap gap align_center align_item">
             <img class="logo-img" src="./assets/logo.webp" alt="logo">
         </div>
-        <div class="flex flex_wrap gap align_center align_item mt1 nav_font ">
-            <a><p>Home</p></a>
-            <a><p>About Us</p></a>
-            <a><p>publication</p></a>
-            <a><p>Feedback</p></a>
-            <button class="box1 box_color2 mt1 pt0 border_radius"><a href="#"></a>Get a Franchise</button>
-            <button class="box2 box_color1 mt1 pt0 border_radius"><a href="#"></a>Order Online</button>
+        <div class="flex flex_wrap gap align_center align_item ">
+            <a><p class="font_size_5 nav_font">Home</p></a>
+            <a><p class="font_size_5 nav_font">About Us</p></a>
+            <a><p class="font_size_5 nav_font">publication</p></a>
+            <a><p class="font_size_5 nav_font">Feedback</p></a>
+            <button class="box1 box_color2 mt1 pt2 pt4 pt1 pt3 border_radius nav_button"><a  class="font_size_5 nav_font">Get a Franchise</a></button>
+            <button class="box2 box_color1 mt1 pt2 pt4 pt1 pt3 border_radius nav_button"><a  class="font_size_5 nav_font">Order Online</a></button>
         </div>
     </header>
     <main class="flex justify_center align_center flex_wrap flex_basis">
         <div><img  class="img-size" src="./assets/container.webp" alt="container"></div>
-        <div class="mt5 mt6 pt5">
-            <div class=" font_size_2"><p>Welcome to <strong>Salt'n Pepper</strong><br>&nbsp  Restuarants! Our Brands</p>
-              
+        <div class="mt5 mt7 text_container">
+            <div class=" font_size_2"><p>Welcome to <strong class="font_size_3 anton-regular">Salt'n Pepper</strong><br> Restuarants! Our Brands</p>
+            <div><p class="font_size_4 mt1">Please click our brands below for further information, reservations or to order online!</p></div>
             </div>
-
         </div>
+        <div class="pt5 flex flex_wrap justify_center">
+            <div><img class="img_bg img3_size" src="./assets/body1.webp" alt="b1">
+            <div class="flex flex_wrap justify_center"><button class="box1 box_color2 mt1 pt0 border_radius">Order Now</button></div>
+            </div>
+       
+            <div><img class="img_bg img3_size " src="./assets/body2.webp" alt="b2">
+                <div class="flex flex_wrap justify_center"><button class="box1 box_color2 mt1 pt0 border_radius">Order Now</button></div>    
+            </div>
+       
+            <div><img class="img_bg img3_size" src="./assets/body3.webp" alt="b3">
+                <div class="flex flex_wrap justify_center"><button class="box1 box_color2 mt1 pt0 border_radius">Reserve</button></div>
+            </div>
+        </div>
+  
     </main>
     <footer></footer>
 </body>

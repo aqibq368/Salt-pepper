@@ -8,16 +8,59 @@ html{
     padding:0;
     box-sizing: border-box;
 }
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 /* navbar started */
 .align_center a {
     display: inline-block;
 }
 .logo-img {
-    height: 84px; /* Adjust this height as needed */
-    width: auto; /* Maintain aspect ratio */
+    height: 84px; 
+    width: auto; 
 }
-.nav_font{
+.header {
+    width: 100%;
+    padding: 20px;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo-img {
+    height: 84px;
+    width: auto;
+}
+
+.nav_container {
+    flex: 3;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nav_font {
+    font-size: 16px;
+    color: #efefef;
+    text-decoration: none;
+}
+
+.nav_font:hover {
+    color: #1e6e54;
+}
+
+.nav_button {
+    padding: 10px 20px;
+    border-radius: 30px;
     font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header {
+    width: 100%;
+    padding: 20px;
 }
 .box_color{
     border-color: #efefef;
@@ -38,6 +81,7 @@ html{
 /* container started */
 .img-size{
     width: 100%;
+    max-width: 1280px;
     /* height: 392px; */
 }
 /* container ended */
@@ -48,4 +92,31 @@ html{
 .font_size_3{
     font-size: 50px;
 }
-/* body 1 ender */
+.font_size_4{
+    font-size: 16px;
+}
+.text_center {
+    text-align: center;
+    width: 100%;
+}
+
+.text_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* body 1 ended */
+/* body2 started */
+.img_bg{
+    background-color: #efefef;
+}
+.img3_size{
+    width: 230px;
+    height: 119PX;
+    margin: 0 10px;
+}
+
+
+/* body2 ended */
