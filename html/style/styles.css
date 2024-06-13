@@ -1,3 +1,51 @@
 html{
     background-color: #000000;
+    color: #efefef;
+    font-size: 62.5px;
 }
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* navbar started */
+.align_center a {
+    display: inline-block;
+}
+.logo-img {
+    height: 84px; /* Adjust this height as needed */
+    width: auto; /* Maintain aspect ratio */
+}
+.nav_font{
+    font-size: 20px;
+}
+.box_color{
+    border-color: #efefef;
+    color: #efefef;
+}
+.box_color1{
+    background-color: #fa0202;
+    color: #efefef;
+}
+.box_color2{
+    background-color: #000000;
+    color: #efefef;
+}
+.btn1_size{
+    height: 10px;
+}
+/* navbar ended */
+/* container started */
+.img-size{
+    width: 100%;
+    /* height: 392px; */
+}
+/* container ended */
+/* body 1 started */
+.font_size_2{
+    font-size: 40px;
+}
+.font_size_3{
+    font-size: 50px;
+}
+/* body 1 ender */
