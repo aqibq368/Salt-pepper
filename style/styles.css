@@ -159,4 +159,14 @@ html{
 /* village Ended */
 /* comming soon started */
 
-/* comming soon started */ 
+/* comming soon started */
+/* social feed started  */
+.social_feed{
+    width: 100%;
+    height: 222;
+}
+.img7_size{
+    width: 222px;
+    height: 222px;
+}
+/* social feed Ended  */
