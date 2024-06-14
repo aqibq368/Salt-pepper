@@ -119,7 +119,7 @@ html{
     width: 100%;
 }
 .font_size_5{
-    font-size: 3rem;
+    font-size: 3.2rem;
 }
 .font_red{
     color: #fa0202;
@@ -148,3 +148,8 @@ html{
     text-transform: none;
 }    
 /* express Ended */
+/* village started */
+.img6_size{
+    width: 600px;
+}
+/* village Ended */
