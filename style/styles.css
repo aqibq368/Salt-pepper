@@ -158,7 +158,14 @@ html{
 }
 /* village Ended */
 /* comming soon started */
-
+.box5{
+    border: #efefef 1px solid;
+    background-color: #efefef;
+    color: #000000;
+    width: 30%;
+    height: 280px;
+    padding: 25px 15px;
+}
 /* comming soon started */
 /* social feed started  */
 .social_feed{

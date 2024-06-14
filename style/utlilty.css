@@ -39,6 +39,9 @@
 }
 /* flex class started */
 /* margin class started */
+.mt{
+    margin: 15px;
+}
 .mt0{
     margin: 20px;
 }
@@ -108,7 +111,7 @@
     border: solid #000000 1px;
 }
 .box3{
-    border: solid #28a745 1px;
+    border: solid #000000 1px;
 }
 .border_radius{
     border-radius: 30px;
