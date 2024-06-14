@@ -139,3 +139,12 @@ html{
     width: 100%;
 }
 /* body4 ended */
+/* express started */
+.img5_size{
+    width: 310px;
+    }
+.txt_dec{
+    text-decoration: none;
+    text-transform: none;
+}    
+/* express Ended */
