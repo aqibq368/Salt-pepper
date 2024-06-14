@@ -133,3 +133,9 @@ html{
     color: #efefef;
 }
 /* body3 ended */
+/* body4 started */
+.bg_body4{
+    background-color: #000000;
+    width: 100%;
+}
+/* body4 ended */
