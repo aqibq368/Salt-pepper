@@ -177,3 +177,13 @@ html{
     height: 222px;
 }
 /* social feed Ended  */
+
+/* footer started */
+.img2-size{
+    width: 140px;
+    height: 64px;
+}
+.footer_margin{
+    margin-top: 50px;
+}
+/* footer ended */

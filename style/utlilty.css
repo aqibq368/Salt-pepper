@@ -46,7 +46,7 @@
     margin: 20px;
 }
 .mt1{
-    margin-top: 8px;    
+    margin-top: 10px;    
 }
 .mt2{
     margin-right: 20px;
@@ -62,8 +62,8 @@
     margin-bottom: 20px;
 }
 .mt6{
-    margin-left: 10px;
-    margin-right: 10px;    
+    margin-left: 3px;
+    margin-right: 3px;    
 }
 .mt7{
     margin-left: auto;
@@ -71,6 +71,9 @@
 }
 /* margin class ended */
 /* padding class started */
+.pt{
+    padding: 8px 12px;
+}
 .pt0 {
     padding: 15px 20px;
 }
