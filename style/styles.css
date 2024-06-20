@@ -116,8 +116,8 @@ html{
 /* body2 ended */
 /* body3 started */
 .bg_body3{
-    background-color: #181818;
-    width: 100%;
+    background-color: #121212;
+    
 }
 .font_size_5{
     font-size: 3.2rem;
@@ -200,11 +200,15 @@ html{
 /*  Introduction section started  */
 .font_grey{
     color: #ffffff;
+    
 }
 /*  Introduction section Ended  */
 /* Main */
 .main{
     padding: 72px 0px;
+}
+.img1_size{
+    width: 530px;
 }
 
 
