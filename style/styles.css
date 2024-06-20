@@ -97,6 +97,7 @@ html{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
 }
 
 /* body 1 ended */
@@ -183,7 +184,27 @@ html{
     width: 140px;
     height: 64px;
 }
-.footer_margin{
-    margin-top: px;
+.footer_padding{
+    padding-top: 30px;
 }
 /* footer ended */
+
+/*----------------------------------------- About us section -----------------------------------------------------------*/
+
+/* Header */
+.border_line{
+    border-top: 0.1rem solid #4c4c4c;
+}
+/* header */
+/* Main */
+/*  Introduction section started  */
+.font_grey{
+    color: #ffffff;
+}
+/*  Introduction section Ended  */
+/* Main */
+.main{
+    padding: 72px 0px;
+}
+
+
