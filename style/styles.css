@@ -14,6 +14,10 @@ html{
     font-style: normal;
   }
 /* navbar started */
+a {
+    text-decoration: none;
+    color: inherit; /* Keeps the link color the same as surrounding text */
+}
 .align_center a {
     display: inline-block;
 }
@@ -210,5 +214,39 @@ html{
 .img1_size{
     width: 530px;
 }
+
+/*----------------------------------------- publication section -----------------------------------------------------------*/
+.publication{
+    margin: 0px 0px 32px;
+    padding: 32px 0px 40px;
+}
+.box6{
+    border: 0.5px solid #808080;
+    width: 540px;
+    height: 570px;
+}
+.img8_size{
+    width: 538px;
+    height: 496px;
+}
+.borderup{
+    border-top: 0.01rem solid #9c9c9cb0;
+    width: 100%;
+}
+.overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    transition: .5s ease-out;
+    background-color: #000000;
+  }
+  .box6:hover .overlay {
+    opacity: 1;
+  }
 
 
