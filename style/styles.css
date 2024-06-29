@@ -8,6 +8,9 @@ html{
     padding:0;
     box-sizing: border-box;
 }
+body {
+    color: #fff; /* sets the text color to white */
+  }
 .anton-regular {
     font-family: "Anton", sans-serif;
     font-weight: 400;
@@ -121,6 +124,7 @@ a {
 /* body3 started */
 .bg_body3{
     background-color: #121212;
+    color: #fff;
     
 }
 .font_size_5{
@@ -334,6 +338,27 @@ a {
     height: 49.99px;
     border-radius: 5px;
 }
+
+/*----------------------------------------- get a franchise section -----------------------------------------------------*/
+
+body {
+    background-color: black;
+    color: white;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.btn-custom {
+    background-color: red;
+    color: white;
+}
+.form-control {
+    background-color: #222;
+    color: white;
+}
+.nav_font2 {
+    text-decoration: none;
+  }
 
 
 
